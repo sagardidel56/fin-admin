@@ -246,7 +246,6 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # yarn v2
 .yarn/cache
@@ -345,11 +344,6 @@ Desktop.ini
 storybook-static/
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -454,10 +448,13 @@ $RECYCLE.BIN/
 # if you are NOT using Zero-installs, then:
 # comment the following lines
 !.yarn/cache
-.vscode
 
 
 # and uncomment the following lines
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/storybookjs,windows,macos,webstorm+all,visualstudiocode,openframeworks+visualstudio,intellij+all,git,yarn,node
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

@@ -2,8 +2,8 @@ import axios from "axios";
 export const TOKEN_NAME = 'Fin-token'
 const token = localStorage.getItem(TOKEN_NAME);
 // no auth token required
-const baseURL = 'http://host.prometteur.in:2002/admin/v1'
-const baseURLFront = 'http://host.prometteur.in:2001/api/v1'
+const baseURL = 'https://fin.prometteur.in/admin/v1'
+const baseURLFront = 'https://fin.prometteur.in/admin/v1'
 export const getAPI = async (url: String, body: any) => {
     const response = await axios.get(`${baseURL}/${url}`, body, {
         headers: {
